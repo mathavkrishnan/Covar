@@ -1,0 +1,10 @@
+body{
+    margin:0;
+    background-image: url("cov.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding-top: 25%;
+}
+

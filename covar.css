@@ -1,0 +1,98 @@
+ul{
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li{
+    font-size: large;
+    display:inline-block;
+    text-align: right;
+    padding-right: 10%;
+}
+.one{
+    background-color: rgb(29, 29, 29);
+    padding-right: 1%;
+}
+body{
+    margin:0;
+    background-image: url("cov.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    text-align: right;
+}
+a:link {
+    text-decoration: none;
+    color: white;
+  }
+  
+a:visited {
+    text-decoration: none;
+    color: skyblue;
+  }
+  
+a:hover {
+    text-decoration: none;
+    color: silver;
+  }
+  
+a:active {
+    text-decoration: none;
+  }
+.form-group{
+    width:300px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.form-group input,
+.form-group textarea{
+    width: 100%;
+    padding: 3px;
+    font-size: 18px;
+    border:2px solid black;
+}
+.container{
+    width: 90%;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 50px;
+    box-shadow: 0px 0px 20px black;
+    margin-bottom: 20px;
+    margin: 30px;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 10%;
+    opacity: 0.8;
+}
+section{
+    display: flex;
+    height:100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+button[type="submit"]{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 24px;
+    font-family: monospace;
+    color:white;
+    background-color:rgb(32, 32, 32);
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+}
+button[type="submit"]:hover{
+    background-color: rgb(22, 22, 22);
+    }
+footer{
+    background-color: rgb(26, 25, 25);
+    opacity: 100;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    height: 75px;
+}
